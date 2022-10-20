@@ -1,30 +1,30 @@
-* {
+* { /* Borders, Paddings, and Margins */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body { /* the coloring behind the text boxes */
     background-color: #d9dcd6;
 }
 
-.tete {
+.header { /* additional padding, font, font color, and text box color */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #315773;
     color: #ffffff;
 }
 
-.tete h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.tete h1 .seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
-.tete div {
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.tete div ul {
+.header div ul {
     list-style-type: none;
 }
 
-.tete div ul li {
+.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
